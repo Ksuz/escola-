@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background: gray;
+}
+
+.area{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3,1fr);
+}
+
+div:nth-child(1){
+    box-shadow: 0 0 3px 5px black;
+}
+
+div:nth-child(2){
+    box-shadow: 0.3rem 0.3rem pink,
+    -0.5rem -0.5rem purple;
+    border-radius: 50%;
+}
+
+div:nth-child(3){
+    box-shadow: 0 5px 20px yellow;
+}
+
+div:nth-child(4){
+    box-shadow: 0 8px 8px -4px blueviolet;
+}
+
+div:nth-child(5){
+    box-shadow: 0 0 5px 5px rebeccapurple;
+    border-radius: 50%;
+}
+
+div:nth-child(6){
+    box-shadow: 0 -7px 3px -3px black, 0 7px 3px -3px black;
+}

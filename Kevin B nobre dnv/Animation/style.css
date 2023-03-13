@@ -1,0 +1,24 @@
+body{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: 0;
+    background-image:linear-gradient(blue, rgba(110, 35, 35, 0.568));
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 blueviolet;
+    color: aliceblue;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    transition: all .1s linear;
+}
+
+button:active{
+    box-shadow:  0 2px 0 #006599;
+    transform: translateY(3px);
+}

@@ -1,0 +1,14 @@
+
+.texto1{
+   text-align: left;
+   border-style: 1, black;
+   color: white;
+   background-color: black;
+   border-radius: 10%;
+   height: 310px;
+   width: 1550px;
+    position: fixed, ;
+}
+.quadrado1{
+    background-color: black;
+}

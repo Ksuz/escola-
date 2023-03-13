@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.element{
+    height: 250px;
+    width: 250px;
+    background: orangered;
+    transition-duration: 1000ms;
+    background-image: linear-gradient(135deg, rgb(233, 105, 0), rgb(245, 223, 28), rgb(233, 105, 0));
+    display: flex;
+}
+
+.div{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.element:hover{
+   /*  transform: translateX(100px)
+    translateY(50px); */
+   /*  transform: scale(3); */
+   transform: rotate(135deg);
+   border-left: 25px transparent;
+   border-right: 25px transparent;
+   border-top: 25px transparent;
+}

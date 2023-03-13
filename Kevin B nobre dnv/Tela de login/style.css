@@ -1,0 +1,26 @@
+body{
+background-color: rgb(187, 184, 184);
+align-items: center;
+display: flex;
+height: 90vh;
+width: 100vw;
+justify-content: center;
+overflow: hidden;
+background-color: gray
+}
+
+h2{
+    font-style:italic; 
+    font-size: 50px;
+    }
+
+.quadrado{
+    width: 500px;
+    height:500px; 
+    border-radius: 50%;
+    background-color: white;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+

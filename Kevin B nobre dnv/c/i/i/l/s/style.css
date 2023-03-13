@@ -1,0 +1,49 @@
+/*body{background-color: yellow;}
+
+.triangulo{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    
+}*/
+
+body{
+    align-items: center;
+    display: flex;
+    height: 95vh;
+    width: 95vw;
+    justify-content: center;
+    overflow: hidden;
+    background-color: gray
+}
+
+
+.quadrado{ 
+width: 150px;
+height:150px; 
+border-radius: 50%;
+background-color: red;    
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.circulo{
+width: 100px;
+height: 100px;
+background-color: black;
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+
+.circulo1{
+width: 50px;
+height: 50px;
+background-color: whitesmoke;
+border-radius: 50%;
+}

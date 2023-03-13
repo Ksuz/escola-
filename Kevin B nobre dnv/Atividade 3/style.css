@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: #ccc;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    background: green;
+}
+
+.item-left{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.quebra{
+    clear: both;
+}
+
+.quebra1{
+    clear: both;
+}
+
+.item-right{
+    float: bottom;
+    float: right;
+    margin-left: 10px;
+    margin-top: 13px;
+}

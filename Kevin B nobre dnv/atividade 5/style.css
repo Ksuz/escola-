@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    background: #ccc;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap:wrap-reverse ;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
